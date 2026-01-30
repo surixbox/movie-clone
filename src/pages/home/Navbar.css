@@ -1,0 +1,49 @@
+.navbar {
+  height: 60px;
+  background-color: #0f171e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-text {
+  color: #00a8e1;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: lowercase;
+  letter-spacing: 0.5px;
+}
+
+.search {
+  width: 280px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.search::placeholder {
+  color: #666;
+}
+
+.profile {
+  font-size: 22px;
+  cursor: pointer;
+}

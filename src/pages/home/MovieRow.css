@@ -1,0 +1,25 @@
+.row {
+  margin: 20px 30px;
+}
+
+.row h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.row-movies {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.row-movies::-webkit-scrollbar {
+  display: none;
+}
+
+.loading {
+  color: #aaa;
+  font-size: 14px;
+}
